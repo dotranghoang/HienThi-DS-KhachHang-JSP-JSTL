@@ -36,7 +36,7 @@
                           <td><c:out value="${customer.fullName}"/></td>
                           <td><c:out value="${customer.birthday}"/></td>
                           <td><c:out value="${customer.address}"/></td>
-                          <td><img src="<c:out value="${customer.image}"/>"  height=150px/></td>
+                          <td><img src="<c:out value="${customer.image}"/>" height="150px"/></td>
                       </tr>
                   </c:forEach>
     </table>
